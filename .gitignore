@@ -1,0 +1,56 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno virtual
+venv/
+venv-uniandes
+.env/
+.venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de logs y caché
+*.log
+*.sqlite3
+.DS_Store
+*.pyo
+*.pyd
+
+# Configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de dependencias
+*.egg-info/
+*.egg
+*.whl
+
+# Archivos de pruebas unitarias
+.tox/
+.nox/
+
+# Archivos de datos de DVC
+*.dvc
+.dvc/
+
+# Archivos grandes o sensibles
+data/
+datasets/
+models/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.csv
+*.json
+*.tsv
+*.xlsx
+*.parquet
