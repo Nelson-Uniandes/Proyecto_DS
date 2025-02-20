@@ -38,11 +38,10 @@ Pipfile.lock
 .nox/
 
 # Archivos de datos de DVC
-*.dvc
 .dvc/
 
 # Archivos grandes o sensibles
-data/
+!data/*.dvc
 datasets/
 models/
 *.h5

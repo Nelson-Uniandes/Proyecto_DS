@@ -1,0 +1,4 @@
+[core]
+    remote = productos
+['remote "productos"']
+    url = s3://proyecto-demanda-productos
