@@ -48,7 +48,6 @@ models/
 *.hdf5
 *.pkl
 *.joblib
-*.csv
 *.json
 *.tsv
 *.xlsx
