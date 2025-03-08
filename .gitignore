@@ -53,3 +53,11 @@ models/
 *.tsv
 *.xlsx
 *.parquet
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.sqlite
+mlflow-artifacts/
+mlflow-logs/
